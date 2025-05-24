@@ -55,6 +55,15 @@ npm install
 ng serve -o
 Esto abrirá automáticamente el navegador en http://localhost:4200.
 
+Agregar usuario ADMIN mediante SWAGGER para tener acceso al portal universitario en la siguiente ruta
+https://localhost:7228/swagger/index.html
+tal como aparece en la imagen, ingresar a la peticion POST api/student.
+![image](https://github.com/user-attachments/assets/33ddbac5-7148-40c5-b50e-c351408e0960)
+ingresa el usuario ADMIN de la siguiente manera y asi ya tienes tu usuario para controlar el portal.
+![image](https://github.com/user-attachments/assets/7bb48654-c837-4f37-8dfd-880fbaf9d3ea)
+
+
+
 🧪 Pruebas
 Puedes probar la API desde Swagger en:
 https://localhost:7228/swagger/index.html
