@@ -41,18 +41,38 @@ Esto aplicará las migraciones y creará la base de datos vacía.
 
 Asegúrate de tener instalada la herramienta de Entity Framework Core CLI:
 dotnet tool install --global dotnet-ef
+
+
 4. Ejecutar el backend (Web API)
 Desde la misma consola:
-
-bash
-Copy
-Edit
 dotnet run --urls "https://localhost:7228"
 Esto levantará la API en:
-
-bash
-Copy
-Edit
 https://localhost:7228/swagger/index.html
 
+5. Ejecutar el frontend (Angular)
+Abre una segunda consola y navega a la carpeta del frontend (UniversityPortalAngular). Luego ejecuta:
+npm install
+ng serve -o
+Esto abrirá automáticamente el navegador en http://localhost:4200.
+
+🧪 Pruebas
+Puedes probar la API desde Swagger en:
+https://localhost:7228/swagger/index.html
+
+🛠️ Tecnologías utilizadas
+.NET 8 (ASP.NET Core Web API)
+Angular 19
+SQL Server
+Entity Framework Core
+Bootstrap
+
+
+📣 Notas
+Asegúrate de que ninguna otra app esté usando el puerto 7228.
+
+Este proyecto crea una base de datos vacía al ejecutar update-database. No contiene datos precargados.
+
+📧 Autor
+Anderson Gordillo
+Correo: [mauri201111@gmail.com]
 
