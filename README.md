@@ -495,6 +495,8 @@ https://localhost:7228/swagger/index.html
 * Si cargas la base de datos por Migraciones (EF) ten en cuenta que se crea una base de datos vacía al ejecutar update-database. **No contiene datos precargados**
 
 📧 Autor
+
 Anderson Gordillo
+
 Correo: [mauri201111@gmail.com]
 
