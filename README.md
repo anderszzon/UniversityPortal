@@ -1,6 +1,6 @@
 # UniversityPortal - Proyecto Full Stack (.NET Web API + Angular)
 
-Este proyecto es una aplicación web educativa construida con **ASP.NET Core Web API** y **Angular**. Permite visualizar estudiantes, materias y sus relaciones.
+Este proyecto es una aplicación web educativa construida con **ASP.NET Core Web API** y **Angular**. Permite visualizar estudiantes, materias y profesores asociados.
 
 
 ## Script para Portal Universitario
