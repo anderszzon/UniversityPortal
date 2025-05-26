@@ -355,7 +355,7 @@ Abre el archivo:
 CD    "TuEquipo\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI/appsettings.json"
 ```
 
-Reemplaza la cadena de conexión por la tuya propia, por ejemplo:
+Reemplaza la cadena de conexión por la tuya, por ejemplo:
 
 En el caso de tener conexion 
 WINDOWS AUTHENTICATION
@@ -375,9 +375,13 @@ Para SQL AUTHENTICATION
 Tienes dos opciones para cargar la base de datos:
 
 **🔹 Opción 1: Cargar el script inicial manualmente**
-Abre SQL Server Management Studio (SSMS) u otra herramienta compatible.
+Abre SQL Server Management Studio (SSMS).
 
 Ejecuta el script SQL inicial que se encuentra al inicio de este archivo README.
+
+Como se observa en la siguiente imagen:
+
+![image](https://github.com/user-attachments/assets/c989c1f6-02f0-49df-94db-5540edc5dc14)
 
 Esto creará las tablas y datos necesarios para comenzar.
 
