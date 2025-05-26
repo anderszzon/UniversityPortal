@@ -450,7 +450,7 @@ ng serve -o
 Esto abrirá automáticamente el navegador en: 
 
 ```
-http://localhost:4200.
+http://localhost:4200/login
 ```
 
 Como se muestra a continuación:
