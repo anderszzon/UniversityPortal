@@ -428,6 +428,7 @@ Esto levantará la API en:
 ```
 https://localhost:7228/swagger/index.html
 ```
+
 Como se muestra a continuación:
 
 ![image](https://github.com/user-attachments/assets/c4e2a18f-a1da-4883-87cb-6b07241a31df)
@@ -450,6 +451,18 @@ Esto abrirá automáticamente el navegador en:
 
 ```
 http://localhost:4200.
+```
+
+Como se muestra a continuación:
+
+![image](https://github.com/user-attachments/assets/8262e9a5-dff5-4444-aef7-81f5d6ef7d15)
+
+** CREDENCIALES DE ACCESO DEL ADMINISTRADOR** 
+aqui podras ingresar para visualizar los estudiantes registrados, modificar accesos de estudiantes al portal, crear nuevos estudiantes y dado el caso, tambien podras eliminarlos.
+
+```
+USER : admin 
+PASSWORD : 0000
 ```
 
 🧪 Pruebas
