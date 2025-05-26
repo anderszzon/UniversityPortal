@@ -345,9 +345,11 @@ GO
 🚀 Pasos para ejecutar el proyecto:
 
 **1. Extraer archivos**
+
 Descarga el .rar y extrae todos los archivos del proyecto en una carpeta local.
 
 **2. Configurar la base de datos**
+
 Antes de ejecutar el proyecto, configura la conexión a tu servidor SQL Server en el archivo appsettings.json.
 
 Abre el archivo:
@@ -409,7 +411,7 @@ dotnet tool install --global dotnet-ef
 
 **4. Ejecutar el backend (Web API)**
 
-Abir la consola e ingresar la ubicacion correspondiente a la capa de presentacion:
+Abre la consola CMD e ingresar la ubicacion correspondiente a la capa de presentacion:
 
 ```
 CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI"
@@ -429,7 +431,7 @@ https://localhost:7228/swagger/index.html
 
 **5. Ejecutar el frontend (Angular)**
 
-Abre una segunda consola y navega a la carpeta del frontend (UniversityPortalAngular). 
+Abre una segunda consola CMD e ingresa a la carpeta del frontend (UniversityPortalAngular). 
 
 ```
 CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalAngular"
