@@ -443,7 +443,6 @@ CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalAngular"
 Luego ejecuta:
 
 ```
-npm install
 ng serve -o
 ```
 
