@@ -352,7 +352,7 @@ Antes de ejecutar el proyecto, configura la conexión a tu servidor SQL Server e
 
 Abre el archivo:
 ```
-CD    "TuEquipo\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI/appsettings.json"
+CD    "TuEquipo\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.Presentation/appsettings.json"
 ```
 
 Reemplaza la cadena de conexión por la tuya, por ejemplo:
