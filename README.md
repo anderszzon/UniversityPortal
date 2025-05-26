@@ -389,6 +389,7 @@ Esto creará las tablas y datos necesarios para comenzar.
 <!-- Este es un comentario oculto que no se mostrará en el README -->
 
 🔹 Opción 2: Crear una **BASE DE DATOS VACIA** mediante migraciones (Entity Framework Core)
+
 Abre una consola dentro del proyecto de la API, en la carpeta de la capa de presentación.
 
 Una vez en la ruta correcta, ejecuta los siguientes comandos:
