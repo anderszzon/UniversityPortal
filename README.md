@@ -482,17 +482,17 @@ https://localhost:7228/swagger/index.html
 
 🛠️ Tecnologías utilizadas
 
-.NET 8 (ASP.NET Core Web API)
-Angular 19
-SQL Server
-Entity Framework Core
-Bootstrap
+* .NET 8 (ASP.NET Core Web API)
+* Angular 19
+* SQL Server
+* Entity Framework Core
+* Bootstrap
 
 
 📣 Notas
 
-Asegúrate de que ninguna otra app esté usando el puerto 7228.
-Este proyecto crea una base de datos vacía al ejecutar update-database. No contiene datos precargados.
+* Asegúrate de que ninguna otra app esté usando el puerto 7228.
+* Este proyecto crea una base de datos vacía al ejecutar update-database. No contiene datos precargados.
 
 📧 Autor
 Anderson Gordillo
