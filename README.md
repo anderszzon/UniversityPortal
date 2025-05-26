@@ -375,6 +375,7 @@ Para SQL AUTHENTICATION
 Tienes dos opciones para cargar la base de datos:
 
 **🔹 Opción 1: Cargar el script inicial manualmente OPCION RECOMENDADA**
+
 Abre SQL Server Management Studio (SSMS).
 
 Ejecuta el script SQL inicial que se encuentra al inicio de este archivo README.
