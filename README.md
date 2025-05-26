@@ -492,7 +492,7 @@ https://localhost:7228/swagger/index.html
 📣 Notas
 
 * Asegúrate de que ninguna otra app esté usando el puerto 7228.
-* Este proyecto crea una base de datos vacía al ejecutar update-database. No contiene datos precargados.
+* Si cargas la base de datos por Migraciones (EF) ten en cuenta que se crea una base de datos vacía al ejecutar update-database. **No contiene datos precargados**
 
 📧 Autor
 Anderson Gordillo
