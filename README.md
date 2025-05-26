@@ -428,6 +428,9 @@ Esto levantará la API en:
 ```
 https://localhost:7228/swagger/index.html
 ```
+Como se muestra a continuación:
+
+![image](https://github.com/user-attachments/assets/c4e2a18f-a1da-4883-87cb-6b07241a31df)
 
 **5. Ejecutar el frontend (Angular)**
 
