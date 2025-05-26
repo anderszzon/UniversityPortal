@@ -374,7 +374,7 @@ Para SQL AUTHENTICATION
 **3. Cargar la Base de Datos**
 Tienes dos opciones para cargar la base de datos:
 
-**🔹 Opción 1: Cargar el script inicial manualmente**
+**🔹 Opción 1: Cargar el script inicial manualmente OPCION RECOMENDADA**
 Abre SQL Server Management Studio (SSMS).
 
 Ejecuta el script SQL inicial que se encuentra al inicio de este archivo README.
@@ -387,7 +387,7 @@ Esto creará las tablas y datos necesarios para comenzar.
 
 <!-- Este es un comentario oculto que no se mostrará en el README -->
 
-🔹 Opción 2: Crear una **base de datos VACIA** mediante migraciones (Entity Framework Core)
+🔹 Opción 2: Crear una **BASE DE DATOS VACIA** mediante migraciones (Entity Framework Core)
 Abre una consola dentro del proyecto de la API, en la carpeta de la capa de presentación.
 
 Una vez en la ruta correcta, ejecuta los siguientes comandos:
