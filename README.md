@@ -2,7 +2,11 @@
 
 Este proyecto es una aplicación web educativa construida con **ASP.NET Core Web API** y **Angular**. Permite visualizar estudiantes, materias y sus relaciones.
 
----
+
+## Script para Portal Universitario
+```sql
+SELECT * FROM Clientes WHERE Activo = 1;
+```
 
 ## 📦 Requisitos Previos
 
