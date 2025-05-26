@@ -341,12 +341,13 @@ GO
   ```bash
   npm install -g @angular/cli
 
-🚀 Pasos para ejecutar el proyecto
+🚀 Pasos para ejecutar el proyecto:
+
 **1. Extraer archivos**
 Descarga el .rar y extrae todos los archivos del proyecto en una carpeta local.
 
 **2. Configurar la base de datos**
-Antes de ejecutar el proyecto, configura la conexión a tu servidor SQL Server.
+Antes de ejecutar el proyecto, configura la conexión a tu servidor SQL Server en el archivo appsettings.json.
 
 Abre el archivo:
 ```
@@ -355,7 +356,8 @@ Abre el archivo:
 
 Reemplaza la cadena de conexión por la tuya propia, por ejemplo:
 
-En el caso de tener conexion WINDOWS AUTHENTICATION
+En el caso de tener conexion 
+WINDOWS AUTHENTICATION
 ```
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=UniversityPortalDB;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -398,10 +400,13 @@ dotnet tool install --global dotnet-ef
 
 **4. Ejecutar el backend (Web API)**
 Desde la misma consola:
+
 ```
 dotnet run --urls "https://localhost:7228"
 ```
+
 Esto levantará la API en:
+
 ```
 https://localhost:7228/swagger/index.html
 ```
