@@ -466,6 +466,11 @@ USER : admin
 PASSWORD : 0000
 ```
 
+Por ultimo, dependiendo el estudiante que deseé ingresar. La pantalla de acceso se observará de la siguiente manera:
+
+![image](https://github.com/user-attachments/assets/f1a9628b-9050-4858-ae3c-2d900137111d)
+
+
 🧪 Pruebas
 Puedes probar la API desde Swagger en:
 
