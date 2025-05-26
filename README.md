@@ -414,7 +414,7 @@ dotnet tool install --global dotnet-ef
 Abre la consola CMD e ingresar a la ubicacion correspondiente a la capa de presentacion:
 
 ```
-CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI"
+CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.Presentation"
 ```
 
 Luego inicia el proyecto.
