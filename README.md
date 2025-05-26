@@ -361,13 +361,13 @@ En el caso de tener conexion
 WINDOWS AUTHENTICATION
 ```
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=UniversityPortalDB;Trusted_Connection=True;TrustServerCertificate=True;"
+  "DefaultConnection": "Server=tu_servidor;Database=UniversityPortalDB;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 ```
 Para SQL AUTHENTICATION
 ```
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=UniversityPortalDB;User Id=tu_usuario;Password=tu_contraseña;TrustServerCertificate=True;"
+  "DefaultConnection": "Server=tu_servidor;Database=UniversityPortalDB;User Id=tu_usuario;Password=tu_contraseña;TrustServerCertificate=True;"
 }
 ```
 
