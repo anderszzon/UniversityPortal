@@ -337,7 +337,8 @@ GO
 
 - [.NET 7 SDK o superior](https://dotnet.microsoft.com/en-us/download)
 - [Node.js y npm](https://nodejs.org/)
-- [Angular CLI](https://angular.io/cli):  
+- [Angular CLI](https://angular.io/cli):
+  
   ```bash
   npm install -g @angular/cli
 
@@ -351,7 +352,7 @@ Antes de ejecutar el proyecto, configura la conexión a tu servidor SQL Server e
 
 Abre el archivo:
 ```
-"Maquina Local"\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI/appsettings.json
+CD    "TuEquipo\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI/appsettings.json"
 ```
 
 Reemplaza la cadena de conexión por la tuya propia, por ejemplo:
@@ -380,7 +381,7 @@ Ejecuta el script SQL inicial que se encuentra al inicio de este archivo README.
 
 Esto creará las tablas y datos necesarios para comenzar.
 
-🔹 Opción 2: Crear una base de datos vacía mediante migraciones (Entity Framework Core)
+🔹 Opción 2: Crear una **base de datos VACIA** mediante migraciones (Entity Framework Core)
 Abre una consola dentro del proyecto de la API, en la carpeta de la capa de presentación.
 
 Una vez en la ruta correcta, ejecuta los siguientes comandos:
@@ -399,7 +400,13 @@ dotnet tool install --global dotnet-ef
 ```
 
 **4. Ejecutar el backend (Web API)**
-Desde la misma consola:
+Ir la consola a la ubicacion correspondiente a la capa de presentacion:
+
+```
+CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI"
+```
+
+Luego inicia el proyecto.
 
 ```
 dotnet run --urls "https://localhost:7228"
@@ -411,8 +418,14 @@ Esto levantará la API en:
 https://localhost:7228/swagger/index.html
 ```
 
-**8. Ejecutar el frontend (Angular)**
-Abre una segunda consola y navega a la carpeta del frontend (UniversityPortalAngular). Luego ejecuta:
+**5. Ejecutar el frontend (Angular)**
+Abre una segunda consola y navega a la carpeta del frontend (UniversityPortalAngular). 
+
+```
+CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalAngular"
+```
+
+Luego ejecuta:
 
 ```
 npm install
