@@ -358,19 +358,35 @@ En el caso de tener conexion WINDOWS AUTHENTICATION
   "DefaultConnection": "Server=localhost;Database=UniversityPortalDB;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 
-pendiente para cuando es SQL AUTHENTICATION
+Para SQL AUTHENTICATION
+"ConnectionStrings": {
+  "DefaultConnection": "Server=localhost;Database=UniversityPortalDB;User Id=tu_usuario;Password=tu_contraseña;TrustServerCertificate=True;"
+}
 
-3. Crear la base de datos (estructura vacía)
-Abre una consola dentro del proyecto de la API, el cual deberia ejecutarse en la carpeta de la capa de presentacion como se observa en la imagen.
+3. Cargar la Base de Datos
+Tienes dos opciones para cargar la base de datos:
+
+🔹 Opción 1: Cargar el script inicial manualmente
+Abre SQL Server Management Studio (SSMS) u otra herramienta compatible.
+
+Ejecuta el script SQL inicial que se encuentra al inicio de este archivo README.
+
+Esto creará las tablas y datos necesarios para comenzar.
+
+🔹 Opción 2: Crear una base de datos vacía mediante migraciones (Entity Framework Core)
+Abre una consola dentro del proyecto de la API, en la carpeta de la capa de presentación (como se muestra en la imagen):
 ![image](https://github.com/user-attachments/assets/8f03cfa0-f65d-4398-a9a9-2377337626c6)
-cuando se encuentre dentro de la ruta, ejecuta:
+Una vez en la ruta correcta, ejecuta los siguientes comandos:
+```
 dotnet restore
 dotnet ef database update
-Esto aplicará las migraciones y creará la base de datos vacía.
+```
+Esto aplicará las migraciones existentes y generará una base de datos vacía con la estructura definida en el modelo.
 
-Asegúrate de tener instalada la herramienta de Entity Framework Core CLI:
+Asegúrate de tener instalada la herramienta de Entity Framework Core CLI. Si no la tienes, instálala con este comando:
+```
 dotnet tool install --global dotnet-ef
-
+```
 
 4. Ejecutar el backend (Web API)
 Desde la misma consola:
