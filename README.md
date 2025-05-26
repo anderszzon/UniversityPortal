@@ -457,8 +457,9 @@ Como se muestra a continuación:
 
 ![image](https://github.com/user-attachments/assets/8262e9a5-dff5-4444-aef7-81f5d6ef7d15)
 
-** CREDENCIALES DE ACCESO DEL ADMINISTRADOR** 
-aqui podras ingresar para visualizar los estudiantes registrados, modificar accesos de estudiantes al portal, crear nuevos estudiantes y dado el caso, tambien podras eliminarlos.
+**CREDENCIALES DE ACCESO DEL ADMINISTRADOR** 
+
+Aqui podras ingresar para visualizar los estudiantes registrados, modificar accesos de estudiantes al portal, crear nuevos estudiantes y dado el caso, tambien podras eliminarlos.
 
 ```
 USER : admin 
