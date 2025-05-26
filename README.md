@@ -409,7 +409,7 @@ dotnet tool install --global dotnet-ef
 
 **4. Ejecutar el backend (Web API)**
 
-Ir la consola a la ubicacion correspondiente a la capa de presentacion:
+Abir la consola e ingresar la ubicacion correspondiente a la capa de presentacion:
 
 ```
 CD   "TuEquipoLocal\EntregableInterRapidisimoAG\UniversityPortalTechnicalTestInterRapidisimo\UniversityPortal.PresentationniversityPortalAPI"
