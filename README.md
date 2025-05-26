@@ -408,6 +408,7 @@ dotnet tool install --global dotnet-ef
 ```
 
 **4. Ejecutar el backend (Web API)**
+
 Ir la consola a la ubicacion correspondiente a la capa de presentacion:
 
 ```
@@ -427,6 +428,7 @@ https://localhost:7228/swagger/index.html
 ```
 
 **5. Ejecutar el frontend (Angular)**
+
 Abre una segunda consola y navega a la carpeta del frontend (UniversityPortalAngular). 
 
 ```
